@@ -1,0 +1,71 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.row{
+  display: flex;
+  text-align: center;
+}
+body {
+  background-image: url("images/DiceBackground.jpg");
+  background-size: cover;
+}
+
+h1 {
+  margin: 20px;
+  font-family: 'Rancho', cursive;
+  text-shadow: 2px 0 #950101;
+  font-size: 8rem;
+  color: white;
+}
+
+p {
+  font-size: 4rem;
+  color: white;
+  font-family: 'Odibee Sans', cursive;
+}
+
+img {
+  width: 35%;
+  padding-left: 20px;
+}
+
+footer {
+  margin-top: 5%;
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  font-family: 'Rancho', cursive;
+}
+
+.btn {
+  background: #a43ed4;
+  background-image: -webkit-linear-gradient(top, #a43ed4, #e024b7);
+  background-image: -moz-linear-gradient(top, #a43ed4, #e024b7);
+  background-image: -ms-linear-gradient(top, #a43ed4, #e024b7);
+  background-image: -o-linear-gradient(top, #a43ed4, #e024b7);
+  background-image: linear-gradient(to bottom, #a43ed4, #e024b7);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  -webkit-box-shadow: 0 1px 3px #000000;
+  -moz-box-shadow: 0 1px 3px #000000;
+  box-shadow: 0 1px 3px #000000;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30d96e;
+  background-image: -webkit-linear-gradient(top, #30d96e, #cde854);
+  background-image: -moz-linear-gradient(top, #30d96e, #cde854);
+  background-image: -ms-linear-gradient(top, #30d96e, #cde854);
+  background-image: -o-linear-gradient(top, #30d96e, #cde854);
+  background-image: linear-gradient(to bottom, #30d96e, #cde854);
+  text-decoration: none;
+}
